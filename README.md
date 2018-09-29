@@ -49,12 +49,15 @@ The lower 3/16 nut and bolt attach to the base tripod head, 1 nut is used to joi
 
 ![](https://github.com/TinkerMaker/BarnDoor/blob/master/20180929_102720.jpg)
 
+# Code and arduino setup:
+
 For the code I used 400 steps per revolution as it smoothed out the action and reduced vibration.  Simply change the line myStepper.setSpeed(12.75); to alter the speed for the gears you use to acheive the desired RPM.
 
 I used digital pins D2,D3,D4 & D5.  Pins 3,4 were reversed due to a known fault with the manufacturing of the stepper motor.  Please try the default setup and use the stepper example 1 rotation to check the motor works forward and reverse.
 For some reason during manufacturing these 2 pins are incorrectly made and the motor will only go clockwise.
 
-# Code:
+Upload the sketch to your arduino:
+
 #include <Stepper.h>
 
 const int stepsPerRevolution = 400;  // change this to fit the number of steps per revolution
