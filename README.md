@@ -85,7 +85,9 @@ void loop() {
 Now the rig is complete you need to align to the celestial North/South pole.  If in the northern hemisphere you will need to set the speed to a negative number for it to run anticlockwise and the rig opens counter clockwise.
 Southern hemisphere the rig opens clockwise.
 
-First you need to find out what aaltitute angle the celestial pole is in the sky for your specific location.  Using an app like stellarium you enable SCP and like at the alt/AZ.  See attached image.
+First you need to find out what aaltitute angle the celestial pole is in the sky for your specific location.  Using an app like stellarium you enable celestial poles and look at the SCP/NCP alt/AZ. 
+![](https://github.com/TinkerMaker/BarnDoor/blob/master/az-alt.png)
+
 For my location Brisbane it shows an altitude of approx 28 degrees.  Again using an angle app set the tripod and rig to an angle of 28 degrees.  At time of writing it was 28.9 degrees.
 
 ![](https://github.com/TinkerMaker/BarnDoor/blob/master/41405987_494707444342187_3132686795662163968_n.jpg)
