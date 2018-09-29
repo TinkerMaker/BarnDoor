@@ -8,6 +8,9 @@ I have successfully taken images up to 3 minutes long with no visible star trail
 
 To test it's best to take several long exposures eg 2min + and a time lapse.  If you see star trails or the subject slightly moves through the field of view then you need to slightly alter the speed of the motor.
 
+# Design
+https://github.com/TinkerMaker/BarnDoor/blob/master/20180929_102808.jpg
+
 
 # Materials:
 Arduino Uno
@@ -68,6 +71,7 @@ void loop() {
 
 }
 
+# Polar Alignment
 Now the rig is complete you need to align to the celestial North/South pole.  If in the northern hemisphere you will need to set the speed to a negative number for it to run anticlockwise and the rig opens counter clockwise.
 Southern hemisphere the rig opens clockwise.
 
