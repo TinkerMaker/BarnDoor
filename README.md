@@ -9,7 +9,7 @@ I have successfully taken images up to 3 minutes long with no visible star trail
 To test it's best to take several long exposures eg 2min + and a time lapse.  If you see star trails or the subject slightly moves through the field of view then you need to slightly alter the speed of the motor.
 
 
-Materials:
+#Materials:
 Arduino Uno
 BYJ-48 5v stepper motor
 door hinge
@@ -19,9 +19,12 @@ door hinge
 Gear set. I used these https://www.jaycar.com.au/spur-gear-set/p/YG2632
 3/8 nut and bolt to attach the upper tripod ball head to.(large gold one in image)
 
+#Build:
 The number of teeth in the gears isn't too important.  I used trial and error to get 1.2 revolutions per minute on the larger gear though there are mathematical equations on other projects to get better accuracy on the web.
 
 Simply super glue a nut to the larger gear and attach the smaller gear to the stepper motor.
+
+
 
 For 3/16 UNC rod with 24TPI and a radius of 29cm from the hinge to the rod hole, a RPM of 1.2 is required.
 If you use a different size threaded rod use this website to calculate the RPM required to turn the nut https://blarg.co.uk/astronomy/barn-door-tracker-calculator
@@ -44,7 +47,7 @@ For the code I used 400 steps per revolution as it smoothed out the action and r
 I used digital pins D2,D3,D4 & D5.  Pins 3,4 were reversed due to a known fault with the manufacturing of the stepper motor.  Please try the default setup and use the stepper example 1 rotation to check the motor works forward and reverse.
 For some reason during manufacturing these 2 pins are incorrectly made and the motor will only go clockwise.
 
-Code:
+#Code:
 #include <Stepper.h>
 
 const int stepsPerRevolution = 400;  // change this to fit the number of steps per revolution
