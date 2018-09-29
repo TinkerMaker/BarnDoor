@@ -68,7 +68,9 @@ Stepper myStepper(stepsPerRevolution, 2, 4, 3, 5);
 
 void setup() {
   // set the speed at 1.2 rpm:
+  
   myStepper.setSpeed(12.75);
+  
 }
 
 void loop() {
