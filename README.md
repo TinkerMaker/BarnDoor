@@ -62,7 +62,7 @@ Upload the sketch to your arduino:
 
 const int stepsPerRevolution = 400;
 
-// initialize the stepper library on pins 8 through 11:
+// initialize the stepper library on pins 2 through 5:
 
 Stepper myStepper(stepsPerRevolution, 2, 4, 3, 5);
 
